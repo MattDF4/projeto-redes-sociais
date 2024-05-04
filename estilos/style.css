@@ -40,3 +40,20 @@ main {
     width: 266px;
     height: 465px;
 }
+
+#aplicativos img {
+    margin: 5px;
+    width: 50px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+#aplicativos img:hover {
+    border: 2px solid white;
+    transform: translate(-5px);
+    transition: transform 1s;
+}
+
+#aplicativos {
+    text-align: right;
+}
